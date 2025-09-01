@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Registro de cuenta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="historia.html">Info y reglas del juego</a>
+                <a href="desarrolladores.html">Aplicación y desarrolladores</a>
+            </nav>
+            <u><h1>Ingrese sus datos</h1></u>
+        </header>
+        <main>
+            <form action="/submit" method="post">
+                <label for="nombre">Nombre completo:</label>
+                <br>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <br>
+                <label for="email">Correo electrónico:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="nombre@gmail.com" required>
+                <br>
+                <label for="nombre">Nombre de usuario:</label>
+                <br>
+                <input type="text" id="Nombre" name="nombre" placeholder="Usuario" required>
+                <br>
+                <label for="contraseña">Ingrese una contraseña:</label>
+                <br>
+                <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+                <br>
+                <label for="contraseña">Repita la contraseña:</label>
+                <br>
+                <input type="password" id="contraseña2.0" name="contraseña" placeholder="Contraseña" required>
+                <br>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <br>
+                <input type="date" id="fecha" name="fecha" required>
+                <br>
+                <a href="login.html">Registrarse</a>
+            </form>
+        </main>
+    </body>
+    <footer>
+        <a>Advertencia:</a>
+        <br>
+        <p>
+            Este producto está diseñado para ser utilizado por personas mayores de 18 años y es solo para fines de entretenimiento. 
+            El juego incluye simulación de compras dentro de la aplicación. 
+            Practicar o tener éxito en los juegos de casino sociales no implica el éxito futuro en las apuestas de los juegos de azar con dinero real.
+        </p>
+    </footer>
+</html>
