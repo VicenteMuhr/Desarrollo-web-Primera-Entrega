@@ -69,7 +69,7 @@ body{
     font-size: 25px;
     color:black;
 }
-.button2 a:hover{
+.button2:hover{
     background-color: darkslateblue;
     color: white;
 }
@@ -222,3 +222,4 @@ div.main{
 table, th, td {
   border: 1px solid;
 }
+
