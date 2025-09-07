@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -22,6 +21,13 @@
             <div class="titulo-secundario_2">
                 <h1>Transacciones</h1>
             </div>
+
+            <div class="main">
+                <h2>Saldo Actual</h2>
+                <ul>
+                    <li>Tu saldo actual es: $200.000</li>
+                </ul>
+            </div>
             <div class="main">
                 <h2>Simulacion de Depósitos y retiros</h2>
                 <form action="/submit" method="post">
@@ -32,6 +38,8 @@
                     <br>
                     <input type="number" id="monto-deposito" name="monto-deposito" placeholder="ej: 10000" required>
                     <br>
+                        <a href="perfil.html" class="button">Depositar</a>
+                        <br>
                         <a href="perfil.html" class="button">Retirar</a>
                 </form>
             </div>
